@@ -1,10 +1,9 @@
 // v 1.0
 
 var pangkat = (x, y) => {
-    if (y == 1) {
-        return x;
-    } else {
-        return x = x * pangkat(x, y-1);
-    }
+    return x ** y
 }
 console.log(pangkat(2,3));
+
+// git rm --cached app.js | delete file yang mau dicommit
+// git commit -m "ini komit pertamaku"
